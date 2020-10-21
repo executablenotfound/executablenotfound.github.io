@@ -18,6 +18,14 @@
       font-weight: 800;
       color: #ed7118;
     }
+    #hello {
+      max-width: 800px;
+      font-family: "Courier New", monospace, sans-serif;
+      font-weight: 800;
+      color: #FFFFFF;
+      ]
+      
+      
   </style>
     
 </head>
@@ -39,6 +47,18 @@
       <br>
       We have come WAY too far for you to bail on me now zero
     </p>
+      <button onclick="myFunction()">Hello?</button>
+      <script>
+        function myFunction() {
+  var x = document.getElementById("hello");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+} 
+      </script>
+      <p id="hello">Hello?</p>
     
     </body>
 
