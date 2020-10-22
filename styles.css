@@ -67,3 +67,9 @@ p {
       color: #FFFFFF;
       display: none;
     }
+#just {
+      max-width: 800px;
+      font-family: "Verdana", monospace, sans-serif;
+      font-weight: 800;
+      color: #4682B4;
+    }
