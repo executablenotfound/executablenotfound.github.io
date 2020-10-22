@@ -25,6 +25,13 @@
       color: #FFFFFF;
       display: none;
     }
+    #two {
+      max-width: 800px;
+      font-family: "Courier New", monospace, sans-serif;
+      font-weight: 800;
+      color: #FFFFFF;
+      display: none;
+    }
       
       
   </style>
@@ -48,10 +55,10 @@
       <br>
       We have come WAY too far for you to bail on me now zero
     </p>
-      <button onclick="myFunction()">Hello?</button>
+      <button onclick="myFunction("hello")">Hello?</button>
       <script>
-        function myFunction() {
-  var x = document.getElementById("hello");
+        function myFunction(x) {
+  var x = document.getElementById(x);
   if (x.style.display === "block  ") {
     x.style.display = "none";
   } else {
@@ -71,8 +78,8 @@
           <br>
           Where were you?
         </p>
-      <button onclick="myFunction()">I don't know what you mean</button>
-        <div id="hello"><p>I don't know what you mean</p>
+      <button onclick="myFunction("two")">I don't know what you mean</button>
+        <div id="two"><p>I don't know what you mean</p>
         <p id="tower">Don't play coy with me. Please. This is serious, and you know it's serious, and I don't know why all of a sudden you're acting like-
           <br>
           <br>
