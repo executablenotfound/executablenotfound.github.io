@@ -73,3 +73,17 @@ p {
       font-weight: 800;
       color: #4682B4;
     }
+#six {
+      max-width: 800px;
+      font-family: "Courier New", monospace, sans-serif;
+      font-weight: 800;
+      color: #FFFFFF;
+      display: none;
+    }
+#seven {
+      max-width: 800px;
+      font-family: "Courier New", monospace, sans-serif;
+      font-weight: 800;
+      color: #FFFFFF;
+      display: none;
+    }
