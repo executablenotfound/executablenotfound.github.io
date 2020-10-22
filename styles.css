@@ -7,6 +7,13 @@ body {
       font-weight: 800;
       color: #ed7118;
     }
+    #towerpanic {
+      max-width: 800px;
+      font-family: "Courier New", monospace, sans-serif;
+      font-weight: 800;
+      color: #ed7118;
+      font-size: 32px;
+    }
     #hello {
       max-width: 800px;
       font-family: "Courier New", monospace, sans-serif;
