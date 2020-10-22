@@ -60,3 +60,10 @@ p {
       color: #FFFFFF;
       display: none;
     }
+#five {
+      max-width: 800px;
+      font-family: "Courier New", monospace, sans-serif;
+      font-weight: 800;
+      color: #FFFFFF;
+      display: none;
+    }
